@@ -62,61 +62,61 @@ The following table summarizes enterprise SaaS platforms providing managed SIEM,
 
 Open-source tools are foundational to modern Security Operations Centers (SOCs). Below is a curated list of open-source SIEM platforms, log collectors, threat detection frameworks, and network security monitors.
 
-*List is sorted by **GitHub Star Count (Descending)**.*
+*List is sorted by **GitHub Stars_Count (Descending)**.*
 
 ### 🛡️ Enterprise Open-Source SIEM & SOAR
 
-- **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)  
+- **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub_Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)  
   **The premier open-source SIEM platform** (GPLv2). Features endpoint monitoring, vulnerability assessment, regulatory compliance auditing (PCI-DSS, NIST, HIPAA), and automatic threat response. Wazuh integrates an OpenSearch-based indexer, server analysis engine, and multi-platform agents.
 
-- **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** [![GitHub stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers)  
+- **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** [![GitHub_Stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers)  
   **Open-source collaborative security engine** (MIT). Parses log files from web servers, SSH, and firewalls to detect attacks, leveraging a crowd-sourced threat intelligence network to block hostile IPs automatically.
 
-- **[Graylog](https://github.com/Graylog2/graylog2-server)** [![GitHub stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)  
+- **[Graylog](https://github.com/Graylog2/graylog2-server)** [![GitHub_Stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)  
   **Centralized log management & analytical UI** (SSPL). Offers fast log ingestion, alerting rules, customizable dashboards, and an experimental Model Context Protocol (MCP) endpoint for LLM/AI security integrations.
 
-- **[Security Onion](https://github.com/Security-Onion-Solutions/security-onion)** [![GitHub stars](https://img.shields.io/github/stars/Security-Onion-Solutions/security-onion?style=social&color=white)](https://github.com/Security-Onion-Solutions/security-onion/stargazers)  
+- **[Security Onion](https://github.com/Security-Onion-Solutions/security-onion)** [![GitHub_Stars](https://img.shields.io/github/stars/Security-Onion-Solutions/security-onion?style=social&color=white)](https://github.com/Security-Onion-Solutions/security-onion/stargazers)  
   **Free and open Linux distribution for threat hunting and SOC monitoring**. Combines Suricata, Zeek, Elastic/OpenSearch, and CyberChef into an enterprise-ready security platform.
 
-- **[Shuffle SOAR](https://github.com/Shuffle/Shuffle)** [![GitHub stars](https://img.shields.io/github/stars/Shuffle/Shuffle?style=social&color=white)](https://github.com/Shuffle/Shuffle/stargazers)  
+- **[Shuffle SOAR](https://github.com/Shuffle/Shuffle)** [![GitHub_Stars](https://img.shields.io/github/stars/Shuffle/Shuffle?style=social&color=white)](https://github.com/Shuffle/Shuffle/stargazers)  
   **Open-source Security Orchestration, Automation, and Response (SOAR)** framework (Apache-2.0). Connects SIEM alerts with threat intelligence APIs and automated response workflows via OpenAPI.
 
-- **[Sentora](https://github.com/d3vhex/Sentora)** [![GitHub stars](https://img.shields.io/github/stars/d3vhex/Sentora?style=social&color=white)](https://github.com/d3vhex/Sentora/stargazers)  
+- **[Sentora](https://github.com/d3vhex/Sentora)** [![GitHub_Stars](https://img.shields.io/github/stars/d3vhex/Sentora?style=social&color=white)](https://github.com/d3vhex/Sentora/stargazers)  
   **AI-powered self-hosted SIEM, EDR, and SOAR platform**. Built with strict air-gap support, local threat feed ingestion (AlienVault OTX, VirusTotal, abuse.ch), and automated regex agent verification.
 
 ---
 
 ### 📦 Log Aggregation, Parsing & Network Monitoring
 
-- **[OpenSearch Security Analytics](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
+- **[OpenSearch Security Analytics](https://github.com/opensearch-project/OpenSearch)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
   **Open-source search & security analytics suite** (Apache-2.0). Provides built-in security detection rules, correlation visualizers, and threat intelligence mapping.
 
-- **[Fluentd](https://github.com/fluent/fluentd)** [![GitHub stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)  
+- **[Fluentd](https://github.com/fluent/fluentd)** [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)  
   **Unified logging layer** (Apache-2.0). Collects and unifies log data across application stacks with 500+ plugins before routing telemetry to SIEM storage backends.
 
-- **[Fluent Bit](https://github.com/fluent/fluent-bit)** [![GitHub stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)  
+- **[Fluent Bit](https://github.com/fluent/fluent-bit)** [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)  
   **Lightweight log processor & forwarder** (Apache-2.0). Designed for high-performance log collection in Kubernetes, cloud, and embedded environments (~4MB binary footprint).
 
-- **[Zeek (formerly Bro)](https://github.com/zeek/zeek)** [![GitHub stars](https://img.shields.io/github/stars/zeek/zeek?style=social&color=white)](https://github.com/zeek/zeek/stargazers)  
+- **[Zeek (formerly Bro)](https://github.com/zeek/zeek)** [![GitHub_Stars](https://img.shields.io/github/stars/zeek/zeek?style=social&color=white)](https://github.com/zeek/zeek/stargazers)  
   **Enterprise network security monitoring framework** (BSD). Translates raw network packet traffic into structured, queryable security event logs for threat analysis.
 
-- **[Arkime (formerly Moloch)](https://github.com/arkime/arkime)** [![GitHub stars](https://img.shields.io/github/stars/arkime/arkime?style=social&color=white)](https://github.com/arkime/arkime/stargazers)  
+- **[Arkime (formerly Moloch)](https://github.com/arkime/arkime)** [![GitHub_Stars](https://img.shields.io/github/stars/arkime/arkime?style=social&color=white)](https://github.com/arkime/arkime/stargazers)  
   **Large-scale full packet capture (PCAP) & indexing system** (Apache-2.0). Provides intuitive web interfaces for browsing, searching, and exporting network telemetry.
 
-- **[Suricata](https://github.com/OISF/suricata)** [![GitHub stars](https://img.shields.io/github/stars/OISF/suricata?style=social&color=white)](https://github.com/OISF/suricata/stargazers)  
+- **[Suricata](https://github.com/OISF/suricata)** [![GitHub_Stars](https://img.shields.io/github/stars/OISF/suricata?style=social&color=white)](https://github.com/OISF/suricata/stargazers)  
   **High-performance Network IDS, IPS, and Network Security Monitoring engine** (GPLv2). Performs deep packet inspection and outputs standard EVE JSON security events.
 
-- **[syslog-ng](https://github.com/syslog-ng/syslog-ng)** [![GitHub stars](https://img.shields.io/github/stars/syslog-ng/syslog-ng?style=social&color=white)](https://github.com/syslog-ng/syslog-ng/stargazers)  
+- **[syslog-ng](https://github.com/syslog-ng/syslog-ng)** [![GitHub_Stars](https://img.shields.io/github/stars/syslog-ng/syslog-ng?style=social&color=white)](https://github.com/syslog-ng/syslog-ng/stargazers)  
   **High-throughput log management daemon** (GPL/LGPL). Collects, parses, enriches, and archives system logs across enterprise networks in real-time.
 
 ---
 
 ### 🔬 Detection Engineering & Threat Hunting
 
-- **[Sigma Rules](https://github.com/SigmaHQ/sigma)** [![GitHub stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)  
+- **[Sigma Rules](https://github.com/SigmaHQ/sigma)** [![GitHub_Stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)  
   **Generic signature format for SIEM detection rules** (MIT). Enables detection engineers to write rules once and convert them for Splunk, Elastic, Sentinel, QRadar, or Wazuh.
 
-- **[ELK Security Stack](https://github.com/cyberdesserts/elk_stack)** [![GitHub stars](https://img.shields.io/github/stars/cyberdesserts/elk_stack?style=social&color=white)](https://github.com/cyberdesserts/elk_stack/stargazers)  
+- **[ELK Security Stack](https://github.com/cyberdesserts/elk_stack)** [![GitHub_Stars](https://img.shields.io/github/stars/cyberdesserts/elk_stack?style=social&color=white)](https://github.com/cyberdesserts/elk_stack/stargazers)  
   **Pre-configured Elasticsearch, Logstash, and Kibana docker setup** tailored for security event monitoring across Linux, Windows, and macOS endpoints.
 
 ---
